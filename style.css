@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.main{
+    width: 100%;
+    background-color: rgb(170, 2, 2);
+}
+header{
+    display: flex;
+    flex-direction:row;
+}
+.logo{
+    height: 50px;
+    flex-basis: 100%;
+    margin-left: 50px;
+}
+.startup{
+    font-size: 26px;
+    display: flex;
+    align-items: flex-start;
+    font-weight: bolder; 
+    margin-top: 20px; 
+}
+.giperik{
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 50px;
+}
+.sl{
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+.sil{
+    text-decoration: none;
+    color:white;
+}
+.main1{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stat{
+    height: 15%;  
+    align-items: center;
+}
+.statup{
+    padding-bottom: 5p;
+}
+h1{
+    font-size: 48px;
+    line-height: 24px;
+    color: white;
+    font-weight: 700px;
+    letter-spacing: 5px;
+    line-height: 50px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.bt1{
+    background: none;
+    border: 3px solid white;
+    color: white;
+    width: 180px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 200px;
+    margin-top: 50px;
+}
+.bt1:hover{
+    transition: 1s;
+    background-color: white;
+}
+.butt{
+    text-decoration: none;
+    color: white;
+}
+.butt:hover{
+    transition: 1s;
+    color: black;
+}
+footer{
+    height: 212.4px;
+    background-color: white;
+}
+.service{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.line{
+    width: 50px;
+    height: 5px;
+    background-color: rgb(121, 121, 121);
+    margin: 30px auto;
+}
+.lorem{
+    height: 70%;
+    align-items:flex-end;
+}
+p{
+    text-align: center;
+    font-weight:lighter;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 100px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.ex{
+    display: flex;
+    justify-content: center;
+}
