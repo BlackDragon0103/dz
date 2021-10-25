@@ -42,6 +42,12 @@ header{
     text-decoration: none;
     color:white;
 }
+.sil:hover{
+    transition: 1s;
+    font-weight: bolder;
+    padding-left: 7px;
+    font-size: 17px;
+}
 .main1{
     height: 1000px;
     display: flex;
